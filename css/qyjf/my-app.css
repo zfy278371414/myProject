@@ -1,0 +1,184 @@
+/* Your app custom files in this file */
+/* Tab bar icons */
+i.tabbar-demo-icon-1 {
+  width: 25px;
+  height: 25px;
+  background-image: url("/img/qyjf/hangqin1.png");
+}
+.active i.tabbar-demo-icon-1 {
+  background-image: url("/img/qyjf/hangqin.png");
+}
+i.tabbar-demo-icon-2 {
+  width: 25px;
+  height: 25px;
+  background-image: url("/img/qyjf/jiaoyi1.png");
+}
+.active i.tabbar-demo-icon-2 {
+  background-image: url("/img/qyjf/jiaoyi.png");
+}
+i.tabbar-demo-icon-3 {
+  width: 25px;
+  height: 25px;
+  background-image: url("/img/qyjf/chicang1.png");
+}
+.active i.tabbar-demo-icon-3 {
+  background-image: url("/img/qyjf/chicang.png");
+}
+i.tabbar-demo-icon-4 {
+  width: 25px;
+  height: 25px;
+  background-image: url("/img/qyjf/geren1.png");
+}
+.active i.tabbar-demo-icon-4 {
+  background-image: url("/img/qyjf/geren.png");
+}
+
+i.stocks-icon-1{
+	width: 20px;
+	height: 20px;
+	background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 25 19' fill='%23929292'><g><path d='M6.88,11.059 L6.88,13 L9.231,13 L9.231,11.059 Z M8,16 C3.582,16 0,12.418 0,8 C0,3.582 3.582,0 8,0 C12.418,0 16,3.582 16,8 C16,12.418 12.418,16 8,16 Z M5.57,3.51 C4.586,4.043 4.063,4.948 4,6.224 L6.28,6.224 C6.28,5.852 6.408,5.494 6.663,5.149 C6.918,4.804 7.35,4.632 7.961,4.632 C8.581,4.632 9.009,4.772 9.243,5.052 C9.477,5.332 9.594,5.642 9.594,5.982 C9.594,6.277 9.488,6.548 9.278,6.794 L8.821,7.191 L8.245,7.574 C7.677,7.95 7.324,8.282 7.187,8.571 C7.051,8.86 6.966,9.382 6.935,10.139 L9.065,10.139 C9.07,9.781 9.105,9.517 9.168,9.347 C9.268,9.078 9.47,8.843 9.775,8.641 L10.335,8.272 C10.903,7.896 11.287,7.587 11.487,7.345 C11.829,6.947 12,6.456 12,5.874 C12,4.925 11.607,4.209 10.821,3.725 C10.034,3.242 9.047,3 7.858,3 C6.953,3 6.191,3.17 5.57,3.51 Z M5.57,3.513'/></g></svg>");
+}
+
+i.down-arrow{
+	width: 12px;
+	height: 12px;
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwIDUwIiBoZWlnaHQ9IjUwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iNTAiIHdpZHRoPSI1MCIvPjxwb2x5Z29uIHBvaW50cz0iNDcuMjUsMTUgNDUuMTY0LDEyLjkxNCAyNSwzMy4wNzggNC44MzYsMTIuOTE0IDIuNzUsMTUgMjUsMzcuMjUgIi8+PC9zdmc+");
+}
+
+.stock-card-footer .card-footer{
+            background:#d6d4d4;
+            font-weight:500;
+}
+
+.subcategory { 
+ display:none;  
+}
+
+.category {   
+}
+
+.stockInfo{
+}
+
+th.begin {
+  pading:0;
+  border-collapse: collapse;
+  font-weight:bold;
+  font-size:18px;
+  text-align: center;
+}
+
+td.inter {
+  pading:0;
+  border-collapse: collapse;
+  text-align: center;
+  font-size:18px;
+}
+body{font-family:'思源雅黑'!important}
+/***************************行情**********************************/
+.profit{color:#ff3c3c};
+
+.hangqin{font-family:'思源黑体';color:#363636;}
+.hangqin *{box-sizing: border-box;padding:0;margin:0}
+p{margin:0}
+.hangqin ul{padding:0;margin: 0}
+li{list-style: none}
+.hangqin-header{height:45px;background:#ff3c3c;display:flex;align-items: center;justify-content:center;font-family:'思源黑体'!important;margin:0;padding:0 12px}
+.hangqin-tabs{width:150px;margin:0}
+.hangqin-tabs .tab-link{width:75px;background:#F3F5FA;height:25px;color:#8f8f8f;border:none;line-height:25px}
+.hangqin-tabs .tab-link:first-child{border-right:1px solid #ff3c3c}
+.hangqin-tabs .tab-link-active{background:white!important;color:#ff3c3c!important;}
+.hangqin-header div{width:20px;height:20px}
+.hangqin-header a{width:20px;height:20px;display:block}
+.hangqin_edit{position:absolute;left:12px;}
+.hangqin_search{position:absolute;right:52px}
+.hangqin_refresh{position:absolute;right:11px}
+.hangqin-header img{width:100%;display: block}
+.hangqin-zhishu {width:100%;height:80px;background:white;}
+.hangqin-zhishu ul{overflow:hidden}
+.hangqin-zhishu ul li{float:left;width:33.3%;border-right:1px solid #b9b9b9;height:80px;box-sizing: border-box;text-align: center}
+.hangqin-zhishu ul li p:first-child{font-weight: bold}
+.hangqin-zhishu ul li:last-child{border:none}
+.hangqin-zhishu ul li p:first-child{font-size:12px;margin-top:13px}
+.hangqin-zhishu ul li p:nth-child(2){font-size:19px;color: #2eb74f;font-weight: bold}
+.hangqin-zhishu ul li p:nth-child(3){font-size:13px;color: #2eb74f}
+.page-content{overflow: initial}
+.hangqin-price{background:white;margin-top:10px}
+.hangqin-price table thead{font-size:16px}
+.hangqin{overflow:auto}
+.hangqin-price table  tr td{width:25%;text-align:center;}
+.hangqin-price table thead td{height:40px}
+.hangqin-price table tbody td{height:50px;border-top:1px solid #F3F5FA}
+.hangqin-price table tbody tr td:first-child{width:98px;padding-left:5px;display:flex;justify-content: space-between;} 
+.hangqin-price table tbody tr td:nth-child(2){width:94px}
+.stockName{display:flex;flex-direction: column;margin-left:6px}
+.stockName p:first-child{margin-top:6px;}
+.stockName p:last-child{color:#8f8f8f}
+.stockZhishu{height:20px;background:#D1403B;border-radius:5px;margin-top:14px;color:white;width:30px}
+.stockRise{background:#2DB74E;border-radius:5px;height:28px;line-height:28px;color:white;width:76px;margin:0 auto}
+.hangqin-title{height:35px;background:#E5E5E5;text-align:center;line-height:35px;color:#363636;font-weight:bold;font-size:16px;}
+
+
+
+.hangqin-hot,.hangqin-stock{margin-top:10px;background:white;padding:0 10px}
+.hangqin-hot_title,.hangqin-stock_title{height:35px;display:flex;justify-content: space-between;line-height:35px;font-weight:bold}
+.hangqin-hot_title img:first-child {width:21px;height:13px;margin-top:11px}
+.hangqin-hot_title img:last-child {width:18px;height:18px;margin-top:8px}
+.hangqin-hot_title div{display: flex;}
+.hangqin-hot table {width:100%;text-align:center}
+.hangqin-hot table  tr td{width:33.3%;border-right:1px solid #b9b9b9;height:105px;border-top:1px solid #F3F5FA}
+.hangqin-hot table  tr td:nth-child(3){border-right:none}
+.hangqin-hot table  tr td p:nth-child(1){font-size:12px;color:#363636;margin-top:10px;}
+.hangqin-hot table  tr td p:nth-child(2){font-size:19px;color:#ff3c3c;}
+.hangqin-hot table  tr td p:nth-child(3){font-size:12px;color:#8f8f8f;}
+.hangqin-stock_title img:first-child {width:21px;height:13px;margin-top:11px}
+.hangqin-stock_title img:last-child {width:18px;height:18px;margin-top:8px}
+.hangqin-stock_title div{display: flex;}
+.hangqin-stock table{width:100%;text-align:center}
+
+.hangqin-stock table tr td{width:33.3%;border-top:1px solid #F3F5FA;height:50px;}
+.hangqin-stock table tr td:first-child p:first-child{font-size:15px;color:#363636;font-weight: bold;margin-top:2px}
+.hangqin-stock table tr td:first-child p:last-child{color:#8f8f8f;}
+.hangqin-stock table tr td:nth-child(2){font-size:17px;color:#363636;font-weight:200}
+.hangqin-stock table tr td:nth-child(3){font-size:17px;font-weight:200}
+.loss{color:#2DB74F!important}
+/*********************菜单栏****************************/
+.tab-link-active .tabbar-demo-icon-1{
+  background-image: url("/img/qyjf/hangqin.png");
+}
+.tab-link-active .tabbar-demo-icon-2{
+  background-image: url("/img/qyjf/jiaoyi.png");
+}
+.tab-link-active .tabbar-demo-icon-3{
+  background-image: url("/img/qyjf/chicang.png");
+}
+.tab-link-active .tabbar-demo-icon-4{
+  background-image: url("/img/qyjf/geren.png");
+}
+.tab-link-active span{color:#ed6c4d;font-size:10px}
+
+
+/*******************************搜索*******************************/
+
+.search-input{width:100%;height:45px;background:#ff3c3c;display:flex;justify-content: center;align-items: center}
+.search-input input{display:block;width:300px;height:30px;margin:0 auto;background:white;border-radius:5px;text-align:center}
+.search-input input::-ms-input-placeholder{text-align: center;}
+.search-input input::-webkit-input-placeholder{text-align: center;}
+.hangqinPub ul {width:100;padding-left:12px;background:white;margin:0}
+.hangqinPub ul li{width:100%;height:50px;padding-right:12px;border-top:1px solid #C6C6C6;display:flex;justify-content: space-between;align-items: center;box-sizing:border-box}
+.hangqinPub ul li:first-child{border-top:none}
+.hangqinPub ul li div:first-child {display:flex;justify-content: space-between;align-items: center}
+.hangqinPub ul li div:first-child span:first-child {width:28px;height:15px;text-align:center;display:block;background:url('/img/qyjf/chuang.png') no-repeat center;background-size:28px;color:white;font-size:12px;margin-right:4px;}
+.hangqinPub ul li div:first-child span:nth-child(2) img{width:15px;height:15px;display:block;margin-right:8px;}
+.searchPage ul li div:last-child img{width:20px;height:50px}
+.searchPage{overflow:auto}
+/*******************************编辑***************************************/
+.edit-title{width:100%;height:45px;background:#ff3c3c;display:flex;justify-content:space-between;align-items:center;padding:0 24px 0 44px;box-sizing:border-box;color:white;font-size:16px;}
+.editPage ul{padding-left:8px;}
+.editPage ul li{padding-right:154px}
+.imgDelete{width:20px;height:50px;margin-right:19px}
+.imgZhiding{width:20px;height:20px;margin-right:34px}
+.imgDrag{width:20px;height:20px}
+.stockCode{color:#8f8f8f}
+.editPage{overflow:auto}
+.sortable-handler{background-image:url('/img/qyjf/drag.png')!important;background-repeat:no-repeat!important;background-size:20px 20px!important;top:15px!important;right:31px!important;width:20px!important;height:20px;}

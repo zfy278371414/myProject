@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="keywords" content="权盈金服" />
+	<meta name="description" content="客户服务" />
+    <meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.form.js"></script>
+    <title>联系客服</title>
+   <style type="text/css">
+     *{margin:0; padding:0;}
+     body {background-color:#ebebeb;font-family:"微软雅黑","宋体","黑体";height: 100%;font-size:16px;}
+     #wrapper {margin:0 auto; width: 100%;} 
+     header{background-color: #33CCFF; text-align: center;}
+     header>p {text-indent: 2em;padding: 10px 0px;text-align: left; color:#060606;}
+     header>nav {text-align: center;}
+     article img{width:80%;  height:100%;cursor: pointer;margin-top:10px; }
+     video{width:100%;  height:100%;cursor: pointer;margin-top:10px; }
+     
+	 .content{text-align: center;width: 100%;}
+      .abc-section{display:block; margin:10px 0px; padding:20px; background-color:#fff; border-radius: 4px;}
+      figcaption {color: #5fc1e8;font-weight: bold;}
+      .bg{
+         background: url('images/common/top_bj.png') repeat;
+         
+         }
+   </style>
+   
+	<script type="text/javascript">
+
+	</script>
+</head>
+<body>
+   
+    <article id="wrapper">
+       <!--<header class="bg">
+            <p style="color:#fff;">  上交所与大智慧联合制作推出《股票期权ABC》系列动画，以通俗易懂、生动活泼的形式，帮助您轻松学习期权知识。动画推出以来得到广大投资者的欢迎，被称为&ldquo;小朋友也能看懂的个股期权&rdquo;。&nbsp;</p>
+       </header>-->
+       <div class="content">
+	       <section class="abc-section">
+	          <figure>
+	              <figcaption>联系客服</figcaption>
+		         <div class="text-align-center">
+			        <br><br><br><br><h4>请长按添加权盈金服客服001</h4><h4>添加后可留言给客服专员</h4>
+			          <div class="block">
+			            <img width="100%" src="../img/qyjf/customService.png" alt="">
+			          </div>
+			        </div>
+	          </figure>
+	       </section>
+	    
+
+        </div>
+    </article>
+<script>
+$(function(){
+
+	$("figure img").hide();
+    
+	$('video').dblclick(function(){
+		$('video').not(this).each(function(i, docElement){
+			docElement.pause();
+		})
+		var $video = $(this);
+		var video= $video[0];
+		if(video.paused){
+			video.play();
+		}else{
+			
+			video.pause();
+		}
+		return false;
+		
+	})
+	
+
+})
+</script>
+</body>
+</html>
